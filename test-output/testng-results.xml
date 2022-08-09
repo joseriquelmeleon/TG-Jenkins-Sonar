@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-02T10:25:45 CLT" name="Default suite" finished-at="2022-06-02T10:26:00 CLT" duration-ms="14320">
+    <groups>
+    </groups>
+    <test started-at="2022-06-02T10:25:45 CLT" name="Default test" finished-at="2022-06-02T10:26:00 CLT" duration-ms="14320">
+      <class name="com.test.nosotrosTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.test.nosotrosTest@5f058f00]" started-at="2022-06-02T10:25:45 CLT" name="beforeClass" finished-at="2022-06-02T10:25:55 CLT" duration-ms="9617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="PruebaNosotros()[pri:0, instance:com.test.nosotrosTest@5f058f00]" started-at="2022-06-02T10:25:55 CLT" name="PruebaNosotros" finished-at="2022-06-02T10:26:00 CLT" duration-ms="4489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PruebaNosotros -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.test.nosotrosTest@5f058f00]" started-at="2022-06-02T10:26:00 CLT" name="afterClass" finished-at="2022-06-02T10:26:00 CLT" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.test.nosotrosTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

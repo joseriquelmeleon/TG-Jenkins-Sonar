@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test thread-count="5" name="Test - Nosotros">
+		<classes>
+			<class name="com.test.nosotrosTest" />
+		</classes>
+	</test>
+	<test name="Test - Servicios">
+		<classes>
+			<class name="com.test.serviciosTest" />
+		</classes>
+	</test>
+	<test name="Test - Casos de exito">
+		<classes>
+			<class name="com.test.casosExitoTest" />
+		</classes>
+	</test>
+	<test name="Test - Capacitaciones">
+		<classes>
+			<class name="com.test.capacitacionesTest" />
+		</classes>
+	</test>
+	<test name="Test - Contacto">
+		<classes>
+			<class name="com.test.contactoTest" />
+		</classes>
+	</test>
+	<test name="Test - Blog">
+		<classes>
+			<class name="com.test.blogTest" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
